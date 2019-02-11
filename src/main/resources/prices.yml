@@ -1,0 +1,16 @@
+Soup:
+  price: 65
+Bread:
+  price: 80
+  discount: 50
+  discountType: MULTIBUY
+  onitem:
+    item: Soup
+    num: 2
+Milk:
+  price: 130
+Apples:
+  price: 100
+  discount: 10
+  discountType: FLAT
+
