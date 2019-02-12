@@ -3,13 +3,15 @@ This is stand alone Java application which generates a bill with sub total amoun
 Prices of items and their discounts whether they are flat discounts or multi buy 
 discounts is mentioned in YAML file.
 
- - Prices and discounts are stored in a YAML file
+ - Prices and discounts are stored in a YAML fil 
+ - All tests are integration tests, so some tests are redundant.
 
 ## Technical Debt
 - Prices and discounts are to be read from a persistent data source
 - Add Sonar for checking code quality
 - Add logging framework like log4j or similar ones
 - Add more robust logging and commenting on code
+- If required, unit tests can be implemented using Mockito and argument matchers etc.
 
 ## How to run
 
